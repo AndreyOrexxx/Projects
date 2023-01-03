@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat/Montserrat-Bold.ttf);
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+main {
+    display: flex;
+}
+.main-main {
+    width: 900px;
+    height: 1200px;
+
+    background: radial-gradient(55.83% 51.33% at 70.56% 56.75%, #D54619 0%, #FFD3C5 0.01%, #CE4881 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 40px;
+}
+.header-header {
+    padding-top: 75px;
+    padding-bottom: 70px;
+    padding-left: 54px;
+}
+.header-header__button {
+    width: 420px;
+    height: 110px;
+
+    background: linear-gradient(266.55deg, #A9FAFF -13.59%, #2D88F0 66.1%);
+    border-radius: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+
+    border: none;
+
+    cursor: pointer;
+
+}
+.section-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-section__h1 {
+    width: 602px;
+    height: 91px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #FFFFFF;
+}
+.section-section__button {
+    width: 154px;
+    height: 74px;
+    border: 4px solid #FFFFFF;
+    border-radius: 100px;
+    background: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+.article-article {
+    display: flex;
+    justify-content: space-between;
+    gap: 133px;
+    margin-bottom: 85px;
+}
+.article-article__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 54px;
+}
+.article-article__left_guarantee {
+    width: 140px;
+    height: 140px;
+    margin-top: 108px;
+}
+.article-article__left_battery {
+    width: 100px;
+    height: 100px;
+}
+.article-article__right_watch {
+    width: 800px;
+    height: auto;
+    margin-top: 100px;
+}
+.article-article__left_p {
+    width: auto;
+    height: 55px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.footer-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-footer__button {
+    width: 615px;
+    height: 121px;
+    border: 4px solid #FFFFFF;
+    border-radius: 100px;
+    background: none;
+    margin-left: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+.footer-footer__button_present {
+    width: 68px;
+    height: 68px;
+    margin-left: 30px;
+}
+.footer-footer__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.footer-footer__icons_android {
+    width: 55px;
+    height: 70px;
+}
+.footer-footer__icons_apple {
+    width: 55px;
+    height: 65px;
+    margin-right: 40px;
+}
+@media (max-width: 1024px) {
+    .main-main  {
+        width: 768px;
+        justify-content: center;
+    }
+    .section-section {
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .section-section__h1 {
+        font-size: 50px;
+        line-height: 62px;
+        width: auto;
+    }
+    .footer-footer {
+        gap: 10px;
+    }
+    .article-article {
+        margin-bottom: 50px;
+    }
+}
