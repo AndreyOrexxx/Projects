@@ -297,5 +297,59 @@ img {
     .footer-footer {
         justify-content: center;
         gap: 100px;
+    } 
+}
+@media (max-width: 767px) {
+    .conteiner {
+        width: 375px;
+    }
+    .header-header__nav {
+        width: 300px;
+    }
+    .header-header__nav_a {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .section-section {
+        margin-left: -185px;
+    }
+    .section-section__article {
+        text-align: center;
+        align-items: center;
+    }
+    .section-section__article_h3 {
+        font-size: 14px;
+    }
+    .section-section__article_h1 {
+        font-size: 28px;
+        width: 342px;
+    }
+    .section-section__article_p {
+        font-size: 18px;
+        width: 343px;
+    }
+    .section-section__article_buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 217px;
+        gap: 24px;
+    }
+    .section-section__aside {
+        width: 343px;
+        height: 344px;
+    }
+    .section-section__logos {
+        width: 296px;
+        margin-left: 230px;
+    }
+    .section-section__carts {
+        margin-left: 380px;
+    }
+    .footer-footer {
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 380px;
     }
 }
